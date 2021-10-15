@@ -38,7 +38,7 @@ services:
     build:
       context: ./member
       dockerfile: build.Dockerfile
-    image: oral-member-build:prod
+    image: oral-test-member-build:prod
     restart: "no"
     tty: true
     working_dir: /app
@@ -64,7 +64,7 @@ services:
     build:
       context: ./admin
       dockerfile: build.Dockerfile
-    image: oral-admin-build:prod
+    image: oral-test-admin-build:prod
     restart: "no"
     tty: true
     working_dir: /app
