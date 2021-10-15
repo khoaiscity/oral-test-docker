@@ -60,7 +60,7 @@ services:
     stdin_open: true
     working_dir: /app
     volumes:
-      - /www/backend-oral-logs:/app/go-space/runtime/logs
-      - /www/uploads-oral:/app/go-space/resource
-      - /www/oral-app-language:/app/go-space/language
+      - /www/be-oral-test-logs:/app/go-space/runtime/logs
+      - /www/uploads-oral-test:/app/go-space/resource
+      - /www/oral-test-app-language:/app/go-space/language
     network_mode: "host"

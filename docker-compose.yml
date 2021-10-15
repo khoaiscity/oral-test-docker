@@ -120,7 +120,7 @@ services:
       dockerfile: build.Dockerfile
     environment:
       - GOPATH=/app/go-space
-    image: oral-backend-build:prod
+    image: oral-test-backend-build:prod
     restart: "no"
     tty: true
     stdin_open: true
