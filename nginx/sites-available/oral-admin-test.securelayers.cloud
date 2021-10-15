@@ -1,5 +1,5 @@
 server {
-    server_name oral-adm-test.securelayers.cloud;
+    server_name oral-admin-test.securelayers.cloud;
     error_log /var/log/nginx/err-oral-test-adm.log warn;
     access_log /var/log/nginx/acc-oral-test-adm.log;
     listen 80;
