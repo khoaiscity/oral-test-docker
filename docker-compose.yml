@@ -89,7 +89,7 @@ services:
     build:
       context: ./resource
       dockerfile: build.Dockerfile
-    image: oral-resource-build:prod
+    image: oral-test-resource-build:prod
     restart: "no"
     tty: true
     working_dir: /app
