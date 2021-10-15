@@ -6,5 +6,5 @@ RUN mkdir $APP_HOME
 
 WORKDIR $APP_HOME
 
-CMD tar -czf $APP_HOME/build/resource.tar.gz ./resource-server \
+CMD tar -czf $APP_HOME/build/resource.tar.gz $APP_HOME/resource-server \
   && echo DONE!!!
