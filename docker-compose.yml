@@ -109,7 +109,7 @@ services:
     tty: true
     working_dir: /app
     volumes:
-      - /www/uploads-oral:/app/mlm-ng/resource-server/uploads
+      - /www/uploads-oral-test:/app/mlm-ng/resource-server/uploads
     # ports:
     #   - '4002:4002'
     network_mode: "host"

@@ -45,7 +45,7 @@ services:
     tty: true
     working_dir: /app
     volumes:
-      - /www/uploads-oral:/app/resource-server/uploads
+      - /www/uploads-oral-test:/app/resource-server/uploads
     network_mode: "host"
 
   backend:
