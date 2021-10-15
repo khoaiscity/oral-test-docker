@@ -95,7 +95,7 @@ services:
     working_dir: /app
     volumes:
       - ./resource/build:/app/build
-      - ./member/member-source/resource-server:/app/resource-server
+      - ./resource/member-source/resource-server:/app/resource-server
     # ports:
     #   - '4002:4002'
     network_mode: "host"
